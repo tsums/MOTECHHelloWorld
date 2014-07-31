@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Export-Package: org.motechproject.helloworld;version="0.1.0.SNAPSHOT"
+Blueprint-Enabled: true
+Built-By: trevor
+Tool: Bnd-1.43.0
+Bundle-Name: Hello World
+Context-File: META-INF/spring/blueprint.xml
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: Grameen Foundation
+Build-Jdk: 1.7.0_60
+Resource-Path: helloworld/resources
+Bundle-Version: 0.1.0.SNAPSHOT
+Context-Path: helloworld
+Bnd-LastModified: 1406812928357
+Bundle-ManifestVersion: 2
+Bundle-Description: MOTECH is a software system from Grameen Foundatio
+ n that harnesses the ubiquity        of mobile phones to deliver and 
+ receive information from patient and caregivers.
+Bundle-License: license.txt
+Bundle-SymbolicName: org.motechproject.motech-hello-world
+Import-Package: org.motechproject.event;version="[0.24,1)",org.motechp
+ roject.event.listener;version="[0.24,1)",org.motechproject.event.list
+ ener.annotations;version="[0.24,1)",org.motechproject.osgi.web;versio
+ n="[0.24,1)",org.slf4j;version="[1.6,2)",org.springframework.beans.fa
+ ctory.annotation;version="[3.1,4)",org.springframework.stereotype;ver
+ sion="[3.1,4)",org.springframework.web.bind.annotation;version="[3.1,
+ 4)"
+Bundle-DocURL: http://grameenfoundation.org/
+
